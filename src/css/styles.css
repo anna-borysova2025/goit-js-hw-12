@@ -46,17 +46,21 @@
     margin-left: 24px;
     margin-right: 24px;
     max-width: 100%;
+    justify-content: center;
 }
 
 .gallery-item {
     width: 360px;
     border: 1px solid grey;
+     border-radius: 5px;
 }
 
 .gallery-item img {
     width: 100%;
-    height: auto;
+    height: 200px;
     display: block;
+   
+    
 }
 
 .stats {
@@ -86,9 +90,9 @@
 .form button {
     border-radius: 8px;
     padding: 8px 16px;
-    width: 75px;
+    width: 90px;
     height: 40px;
-    border: none;
+    border: 1px solid grey;
     background-color: #4e75ff;
     color: #fff;
     cursor: pointer;
@@ -98,6 +102,18 @@
     background-color: #6c8cff;
 }
 
+.load-more {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 125px;
+    height: 40px;
+    border: 1px solid grey;
+    background-color: #4e75ff;
+    color: #fff;
+    cursor: pointer;
+    margin: 30px auto;
+}
+ 
 
 .loader {
   width: 48px;
